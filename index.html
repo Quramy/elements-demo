@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Button Test Page</title>
+  <script src="elements.js"></script>
+</head>
+<body>
+  <custom-button label="first vlaue"></custom-button>
+  <script>
+  const button = document.querySelector('custom-button');
+  button.addEventListener('action', (event) => {
+    console.log(event);
+  });
+  </script>
+</body>
+</html>
